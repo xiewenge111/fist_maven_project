@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color:#f2f2f2; color:#434343; }
+body,html{ height:100%; }
+*{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input::-webkit-inner-spin-button { -webkit-appearance: none; }
+input::-webkit-outer-spin-button { -webkit-appearance: none; }
+input[type='button'] {-webkit-appearance:none; /*去除input默认样式*/}
+.hide{ display:none; }
+input.btn,a.btn{ background-color:#fe9e14; color:#fff; border-radius:4px; height:35px; line-height:35px; text-align:center; font-size:15px; display:block; border:none; outline:none;}
+input.btn{ width:100%; }
+input.btn2,a.btn2{ margin-top:30px; }
+input.btn3,a.btn3{ margin-top:15px; }
+/*==================银行logo================*/
+.bankLogo1 i,.bankLogo2 i,.bankLogo3 i{ display:inline-block; width:32px; height:32px; background:url(../images/banklogo.png) no-repeat; background-size:96px 480px; }
+.bankLogo1 i.ICBC{ background-position:0 0; }/*工商银行*/
+.bankLogo1 i.ABC{ background-position:0 -32px; }/*农业银行*/
+.bankLogo1 i.BOC{ background-position:0 -64px; }/*中国银行*/
+.bankLogo1 i.CCB{ background-position:0 -96px; }/*建设银行*/
+.bankLogo1 i.PSBC{ background-position:0 -128px; }/*邮政*/
+.bankLogo1 i.CIB{ background-position:0 -160px; }/*兴业银行*/
+.bankLogo1 i.PAB{ background-position:0 -192px; }/*平安银行*/
+.bankLogo1 i.CNCB{ background-position:0 -224px; }/*中信银行*/
+.bankLogo1 i.GDB{ background-position:0 -256px; }/*广发银行*/
+.bankLogo1 i.HXB{ background-position:0 -288px; }/*华夏银行*/
+.bankLogo1 i.SPDB{ background-position:0 -320px; }/*浦发银行*/
+.bankLogo1 i.BCCB{ background-position:0 -352px; }/*北京银行*/
+.bankLogo1 i.CMB{ background-position:0 -384px; }/*招商银行*/
+.bankLogo1 i.CEB{ background-position:0 -416px; }/*光大银行*/
+.bankLogo1 i.CMBC{ background-position:0 -448px; }/*民生银行*/
+
+.bankLogo3 i.ICBC{ background-position:-64px 0; }/*工商银行*/
+.bankLogo3 i.ABC{ background-position:-64px -32px; }/*农业银行*/
+.bankLogo3 i.BOC{ background-position:-64px -64px; }/*中国银行*/
+.bankLogo3 i.CCB{ background-position:-64px -96px; }/*建设银行*/
+.bankLogo3 i.PSBC{ background-position:-64px -128px; }/*邮政*/
+.bankLogo3 i.CIB{ background-position:-64px -160px; }/*兴业银行*/
+.bankLogo3 i.PAB{ background-position:-64px -192px; }/*平安银行*/
+.bankLogo3 i.CNCB{ background-position:-64px -224px; }/*中信银行*/
+.bankLogo3 i.GDB{ background-position:-64px -256px; }/*广发银行*/
+.bankLogo3 i.HXB{ background-position:-64px -288px; }/*华夏银行*/
+.bankLogo3 i.SPDB{ background-position:-64px -320px; }/*浦发银行*/
+.bankLogo3 i.BCCB{ background-position:-64px -352px; }/*北京银行*/
+.bankLogo3 i.CMB{ background-position:-64px -384px; }/*招商银行*/
+.bankLogo3 i.CEB{ background-position:-64px -416px; }/*光大银行*/
+.bankLogo3 i.CMBC{ background-position:-64px -448px; }/*民生银行*/
+
+/*==================header================*/
+#header_weixin{ height:45px; line-height:45px; text-align:center; color:#fff; font-size:17px; background-color:#619ad1;}
+.head{ height:45px; line-height:45px; text-align:center; color:#fff; font-size:17px; background-color:#619ad1; }
+.head a.back{ display:inline-block; position:absolute; left:0; top:0; width:45px; height:45px; line-height:45px; }
+.head a.back i{ display:inline-block; width:10px; height:16px; background:url(../images/sprite.png) no-repeat; background-size:129px 100px; background-position:0 -80px; vertical-align:-2px; }
+.head a.manage,.head input.fresh{ display:inline-block; position:absolute; right:15px; top:10px; width:69px; height:25px; line-height:25px; border:solid 1px #d2d2d2; border-radius:3px; text-align:center; font-size:13px; color:#fff; }
+.head span.txt{ font-family:'黑体'; }
+.head input.fresh{ background-color:transparent; }
+.warpper{ min-height:100%; }
+.footerPush{ height:50px; }
+.fot{ color:#4b5969; font-size:12px; text-align:center; line-height:50px; height:50px; margin-top:-50px;}
+
+/*=========================main=======================*/
+.main{ padding-bottom:50px; }
+.con{ padding:10px 15px; color:#434343;}
+.c-tx{ text-align:right; font-size:13px; line-height:13px; margin-top:13px; }
+.c-tx a{color:#6099d0; }
+.inf{ padding:5px 0 18px 0; }
+.inf p{ line-height:24px; font-size:15px; }
+.c-xy{ font-size:13px; line-height:13px; margin-top:35px; }
+.c-xy a{color:#6099d0; }
+
+.success{ text-align:center; }
+.success i.suc{ margin-top:55px; display:inline-block; width:43px; height:43px; background:url(../images/sprite.png) no-repeat; background-size:129px 100px; }
+.success i.suc1{ background-position:0 0;}
+.success i.suc2{ background-position:-43px 0;}
+.success i.suc3{ background-position:-86px 0;}
+.success p{ margin-top:20px; font-size:18px; }
+.success p.tip{ color:#434343; font-size:12px; margin-top:0; padding:10px 0 0px 0; line-height:19px; }
+.success a.btn{ margin:18px 50px; }
+
+/*=================order====================*/
+.order{ padding:10px 15px; background-color:#2e353f; }
+.order p{ color:#bcccd6; font-size:13px; line-height:22px; }
+
+.order2{ padding:15px 15px 5px 15px; }
+.order2 p{ color:#434343; font-size:15px; line-height:22px; }
+
+/*=====================输入框=====================*/
+.put{ display:table; width:100%; box-sizing:border-box; border:solid 1px #d9d9d9; border-radius:4px; background-color:#fff; line-height:15px; padding:10px 0 9px 0; margin-bottom:8px; position:relative;}
+.put span.ico{ display:table-cell; padding:0 15px; width:20px; vertical-align:middle; }
+.put span.ico i{ display:inline-block; background:url(../images/sprite.png) no-repeat; background-size:129px 100px; background-position:-35px -43px; width:20px; height:19px; }
+.put span.in{ display:table-cell; vertical-align:middle; padding-right:15px; }
+.put span.in input{ width:100%; font-size:15px; color:#686b7d; border:none; outline:none;}
+.put span.tit{ display:table-cell; vertical-align:middle; width:45px; padding:0 15px; height:20px; font-size:15px; }
+.put2 span.tit{ width:75px; }
+.put span.help{ display:table-cell; vertical-align:middle; width:18px; padding-right:11px;}
+.put span.help i{ display:inline-block; width:18px; height:18px; background:url(../images/sprite.png) no-repeat; background-size:129px 100px; background-position:-56px -43px; }
+.put .sub{ position:absolute; top:-1px; right:0; width:70px; height:41px; border-radius:0 4px 4px 0; background-color:#6095d0; color:#fff; font-size:12px; border:none; text-align:center; outline:none; }
+.put .sub.on{ background-color:rgba(96,149,208,1); }
+
+.ite{ display:table; width:100%; height:41px; margin-top:15px;}
+.ite .kk{ display:table-cell; border:solid 1px #d9d9d9; border-radius:4px; background-color:#fff; line-height:15px; padding:11px 15px 11px 15px;}
+.ite input{ width:100%; font-size:15px; color:#686b7d; border:none; outline:none; }
+.ite .kl{ display:table-cell; padding-left:7px; width:68px; vertical-align:middle;}
+.ite input.sub{ display:inline-block; height:38px; line-height:38px; width:68px; text-align:center; color:#fff; font-size:12px; background-color:#6095d0; border-radius:2px; border:none; text-indent:0; }
+.ite input.sub.on{ background-color:rgba(96,149,208,1); }
+.ite .cimg{ width:85px; height:39px; vertical-align:middle;  background-size:85px 39px;}
+.codeDiv{  margin-top:8px; display:none;}
+
+/*=====================银行卡====================*/
+.o-bc{ padding:0px 12px; }
+.card h2{ position:relative; height:1px; border-bottom:solid 1px #ccc;margin:25px 0 15px 0; }
+.card h2 span{ position:absolute; top:-9px; left:50%; margin-left:-87px; width:144px; display:inline-block; font-size:13px; font-weight:normal; background-color:#f2f2f2; padding:0 15px; text-align:center; color:#434343;  }
+.card ul li{ display:table; width:100%; margin-bottom:15px;}
+.card ul li .edit{ display:table-cell; width:25px; padding-right:10px; vertical-align:middle; opacity:0; display:none; }
+.card ul li .edit a.radio{ cursor:pointer; display:inline-block; width:25px; height:25px; background: url(../images/sprite.png) no-repeat; background-size:129px 100px; background-position:-76px -43px; }
+.card ul li .edit a.radio.checked{ background-position:-103px -43px;}
+.card ul li .edit a.radio input{ width:25px; height:25px; opacity:0; }
+.card ul li .edit.showCard{ animation:showCard 0.5s linear both; -webkit-animation:showCard 0.5s linear both; display:table-cell; }
+.card ul li .edit.showCard +dl dt{ padding:0 10px 0 15px; }
+.card ul li .edit.showCard +dl dd{ padding:0 10px 0 12px; margin-left:65px; }
+.card ul li .edit.hideCard{ animation:hideCard 0.5s linear both; -webkit-animation:hideCard 0.5s linear both; display:none; }
+
+.card dl{ display:table-cell; background-color:#d94f4f; border-radius:4px; padding:12px 0; position:relative; height:51px; color:#fff; }
+.card.card_cx dl{ background-color:#5ea6e1; }
+.card dt{ position:absolute; top:12px; left:0; padding:0 14px 0 22px; width:40px; text-align:center; font-size:0; }
+.card dd{ height:50px; box-shadow:-1px 0 0 rgba(242,242,242,0.45); margin-left:76px; padding:0 20px 0 20px; }
+.card dt i{ display:inline-block; width:32px; height:32px; margin-bottom:7px; }
+.card dt span{ font-size:12px; line-height:12px; }
+.card dd p{ font-size:15px; line-height:15px; padding:4px 0 12px 0; }
+.card dd span{ font-size:20px; line-height:20px; }
+.card_add{ margin-top:15px; }
+.card_add dl{ background-color:#fff; border-radius:4px; padding:12px 0; position:relative; height:51px; color:#434343;}
+.card_add dt{ position:absolute; top:20px; left:0; padding:0 14px 0 22px; width:40px; text-align:center; font-size:0; }
+.card_add dt i{ vertical-align:middle; display:inline-block; width:34px; height:34px; background:url(../images/sprite.png) no-repeat; background-size:129px 100px; background-position:0 -43px;}
+.card_add dd{ height:50px; line-height:50px; border-left:solid 1px #dedddd; margin-left:76px; padding:0 20px 0 20px;}
+
+@-webkit-keyframes showCard {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes showCard {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes hideCard {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@keyframes hideCard {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+
+/*===============银行卡列表=================*/
+.list_bank{ width:100%; height:100%; background-color:rgba(0,0,0,0.65); position:absolute; top:0; left:0;}
+.list_con{ position:fixed; top:7%; left:5%; height:90%; width:90%; border-radius:3px; background-color:#fff; text-align:center; font-size:0; -webkit-transform:translateY(100%);}
+.list_con.bounceOut{ -webkit-animation:bounceOut 0.3s linear both; animation:bounceOut 0.3s linear both;}
+.list_close{ display:inline-block; position:absolute; top:-8px; right:-8px; background:url(../images/delete-white.png) no-repeat; background-size:25px 25px; width:25px; height:25px; z-index:2; -webkit-animation:fadeIn 0.1s 0.2s linear both; animation:fadeIn 0.1s 0.3s linear both;}
+.list_c{ height:100%; overflow:hidden;}
+.list_m{ height:100%; overflow-y:scroll;}
+.title{ color:#fafafa; font-size:13px; font-weight:normal; height:49px; line-height:49px; text-align:center; background-color:#8a95a3; }
+.list{ overflow-y:scroll;}
+.list dl{ position:relative; padding:19px 15px 12px 33px; height:32px; border-bottom:solid 1px #e0dfdf; }
+.list dl:nth-child(2n){ background-color:#f2f2f2;}
+.list dl:nth-child(2n-1){ background-color:#fafafa;}
+.list dt{ position:absolute; top:19px; left:33px; width:32px; }
+.list dt i{ }
+.list dd{ margin-left:30px; line-height:32px; font-size:0; }
+.list dd b{ font-size:15px; color:#434343; font-weight:normal; }
+
+/*============带清除按钮的input控件===========*/
+.inputClear{ position:relative; line-height:15px; padding:0 15px 0 0px; border-radius:4px; }
+.inputClear input{ border:none; outline:none; width:100%; vertical-align:top;}
+.inputClear a{ display:inline-block; position:absolute; right:-5px; top:0px; width:20px; height:20px; text-align:center; }
+/*.inputClear a i{ display:none; background:url(../images/sprite.png) no-repeat;background-size:129px 100px; background-position:-15px -80px; background:url(../images/up_closed.png) no-repeat; width:18px; height:18px; vertical-align:top; }*/
+.inputClear a i{ display:none; background:url(../images/sprite.png) no-repeat; background-size:129px 100px; background-position:-36px -64px; width:15px; height:15px; vertical-align:middle; }
+
+/*=============弹窗===========*/
+.pop{ width:100%; height:100%; background-color:rgba(0,0,0,0.5); position:absolute; top:0; left:0; z-index:9; }
+.dialog{ height:auto; border-radius:3px; background-color:#fff; position:fixed; top:50%; left:50%; margin-left:-126px; width:252px;-webkit-animation:bounceIn 0.3s linear both; animation:bounceIn 0.3s linear both; z-index:10;}
+.d-inf{ padding:20px 20px 20px 20px; height:auto;}
+.d-tip{ font-size:15px; line-height:24px; text-align:left; color:#000;}
+.d-blst{ display:block; text-decoration:underline; color:#3649F8; font-size:12px; margin-top:15px; display:none;}
+.d-btn{ display:table; width:100%; border-top:solid 1px #b6b6b7; }
+.d-btn a{ display:table-cell; height:42px; line-height:42px; border-left:solid 1px #b6b6b7; text-align:center; color:#007aff;}
+.d-btn a:first-child{ border-color:transparent;}
+
+@-webkit-keyframes bounceIn{
+	0%{opacity:0; -webkit-transform:scale(.0)}
+	50%{opacity:1; -webkit-transform:scale(.5)}
+	100%{-webkit-transform:scale(1)}
+}
+@keyframes bounceIn{
+	0%{opacity:0; -moz-transform:scale(.0)}
+	50%{opacity:1; -moz-transform:scale(.5)}
+	100%{-moz-transform:scale(1)}
+}
+
+@-webkit-keyframes bounceOut{
+	0%{opacity:0; -webkit-transform:translateY(100%);}
+	50%{opacity:0.5; -webkit-transform:translateY(50%);}
+	100%{opacity:1; -webkit-transform:translateY(0);}
+}
+@keyframes bounceOut{
+	0%{opacity:0; transform:translateY(100%);}
+	50%{opacity:0.5; transform:translateY(50%);}
+	100%{opacity:1; transform:translateY(0);}
+}
+
+@-webkit-keyframes fadeIn{
+	0%{opacity:0;}
+	100%{ opacity:1;}
+}
+@keyframes fadeIn{
+	0%{opacity:0;}
+	100%{ opacity:1;}
+}
+
+/*====================有效期 CVN2========================*/
+.tan{ width:100%; height:100%; background-color:rgba(0,0,0,0.65); position:absolute; top:0; left:0;}
+.t-con{ position:fixed; top:50%; left:50%; margin-top:-110px; margin-left:-126px; width:252px; border-radius:3px; background-color:#fff; text-align:center; font-size:0; -webkit-animation:bounceIn 0.3s linear both; animation:bounceIn 0.3s linear both;}
+.t-con h2{ padding:25px 0 12px 0; color:#6095cf; line-height:15px; font-size:15px; font-weight:normal; }
+.t-con p{ font-size:12px; line-height:12px; }
+.t-con img{ width:127px; height:86px; margin:12px 0 16px 0; }
+.t-con a.t-btn{ display:block; height:42px; line-height:42px; font-size:15px; color:#434343; border-top:solid 1px #b5b5b5; }
+
+/*=====================loading=======================*/
+.loading{ position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(255,255,255,0.1); }
+.loading span{display:inline-block; position:absolute; top:50%; left:50%; margin-top:-37px; margin-left:-37px; width:57px; height:57px; padding:17px; border-radius:7px; background:rgba(0,0,0,0.75)}
+.loading i{ display:inline-block; width:57px; height:57px; background:url(../images/loadbg.png) no-repeat; background-size:57px 57px; position:relative;}
+.loading i:after{ position:absolute; top:0; left:0; content:''; width:57px; height:57px; background:url(../images/loading.png) no-repeat; background-size:57px 57px; -webkit-animation:rotateX 1.2s infinite linear; animation:rotateX 1.2s infinite linear;  }
+@-webkit-keyframes rotateX{
+	0% { -webkit-transform: rotate(0deg);}
+  100% { -webkit-transform: rotate(359deg);}
+}
+@keyframes rotateX{
+	0% { transform: rotate(0deg);}
+  100% { transform: rotate(359deg); }
+}
+/*=====================协议=======================*/
+.service{ padding:25px 15px; }
+.service p{ line-height:24px; text-indent:30px; font-size:15px; color:#434343; margin-bottom:20px; }
+
+/*=============解决与jquerymobile ui的冲突=============*/
+.ui-loader{ display:none; }
+.ui-page{ height:100%; }
